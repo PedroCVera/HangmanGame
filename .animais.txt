@@ -139,17 +139,17 @@ toucan 0
 tree kangaroo 0
 turtle 0
 turtle dove 0
-umbrella bird 0
 vampire bat 0
 vulture 0
 walrus 0
 weasel 0
 whippet 0
-wombat 0
 yak 0
 zebra 0
 zorse 0
 squid 9
 narwhal 9
 chinchilla 10
+wombat 11
 chimpanzee 14
+umbrella bird 14

@@ -6,7 +6,7 @@
 /*   By: pcoimbra <pcoimbra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 12:26:00 by pcoimbra          #+#    #+#             */
-/*   Updated: 2023/10/18 15:27:04 by pcoimbra         ###   ########.fr       */
+/*   Updated: 2023/10/18 16:13:48 by pcoimbra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,14 @@ int	start2(void)
 	int		opt;
 	char	c;
 	
-	std::cout << "Choose which pool to choose from: " << std::endl;
-	std::cout << "Your own word - 0" << std::endl;
-	std::cout << "Animals - 1" << std::endl;
-	std::cout << "food - 2" << std::endl;
-	std::cout << "countries - 3" << std::endl;
-	std::cout << "Leave - 4" << std::endl;
+	std::cout << "***********************************" << std::endl;
+	std::cout << "|Choose which pool to choose from |" << std::endl;
+	std::cout << "|Your own word  -       0         |" << std::endl;
+	std::cout << "|Animals        -       1         |" << std::endl;
+	std::cout << "|Food           -       2         |" << std::endl;
+	std::cout << "|countries      -       3         |" << std::endl;
+	std::cout << "|Leave          -       4         |" << std::endl;
+	std::cout << "***********************************" << std::endl;
 	std::cout << "Option:";
 	std::cin >> c;
 	

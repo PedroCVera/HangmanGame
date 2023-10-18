@@ -6,7 +6,7 @@
 /*   By: pcoimbra <pcoimbra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 11:41:03 by pcoimbra          #+#    #+#             */
-/*   Updated: 2023/10/18 14:59:53 by pcoimbra         ###   ########.fr       */
+/*   Updated: 2023/10/18 16:44:23 by pcoimbra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,14 @@
 # include <limits>
 # include <map>
 # include <iterator>
+# include <iomanip>
+# include <sstream>
 
 class	Palavra
 {
 	private:
 			std::string									_palavra;
+			// std::string									_abort_word;
 			std::string									_word;
 			int											_vidas = 7;
 			int											_remaining;

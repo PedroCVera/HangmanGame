@@ -6,7 +6,7 @@
 /*   By: pcoimbra <pcoimbra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 11:56:32 by pcoimbra          #+#    #+#             */
-/*   Updated: 2023/10/18 15:39:51 by pcoimbra         ###   ########.fr       */
+/*   Updated: 2023/10/18 16:54:41 by pcoimbra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ Palavra::Palavra(int opt)
 		srand(time(NULL));
 		randomValue = rand();
 		create_list();
-		if ((randomValue % 3) == 8)
+		if ((randomValue % 3) == 0)
 		{
 			std::advance(_ite, (randomValue % static_cast<int>(_list.size())));
 			Word(_ite->second);
@@ -106,8 +106,9 @@ std::string	Palavra::not_so_random(void)
 	
 	srand(time(NULL));
 	randomValue = rand();
-	randomValue = randomValue % (static_cast<int>(_list.size()) / 11);
+	randomValue = randomValue % (static_cast<int>(_list.size()) / 5);
 	randomValue = static_cast<int>(_list.size()) - randomValue;
+	std::cerr << "_list.size = " << _list.size() << "rndVal = " << randomValue << std::endl;
 	std::advance(_ite, randomValue);
 	
 	return (_ite->second);
@@ -139,6 +140,7 @@ void	Palavra::Word(std::string string)
 {
 	_palavra = string;
 	_remaining = 0;
+	// int	j = 0;
 	for (int i = 0; i < static_cast<int>(_palavra.size()); i++)
 	{
 		if (_palavra[i] == ' ')
@@ -151,6 +153,17 @@ void	Palavra::Word(std::string string)
 		if (i + 1 == static_cast<int>(_palavra.size()))
 			_word[i + 1] = '\0';
 	}
+	// for (int i = 0; _word[i]; i++)
+	// {
+	// 	_abort_word[j] = _word[i];
+	// 	j++;
+	// 	if (_word[i + 1])
+	// 	{
+	// 		_abort_word[j] = ' ';
+	// 		j++;
+	// 	}
+	// }
+	// _abort_word[j] = '\0';
 	std::cout << _word.c_str() << std::endl;
 	std::cout << "Numero de letras: " << _remaining << std::endl;
 }
@@ -192,24 +205,25 @@ void	Palavra::display()
 	
 	std::cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" << std::endl;
 	std::cout << std::flush;
-	std::cout << "This is the topic: " << option << std::endl;
-	std::cout << "Number of letters: " << static_cast<int>(_palavra.size()) << std::endl;
-	std::cout << "This is how it is: ";
-	for (int i = 0; i < static_cast<int>(_palavra.size()); i++)
-	{
-		if (i + 1 == static_cast<int>(_palavra.size()))
-			std::cout << _word[i];
-		else
-			std::cout << _word[i] << " ";
-	}
-	std::cout << std::endl;
-	std::cout << "and you have used these letters: ";
+	std::cout << std::string(70, '*') << std::endl;
+	std::cout << "|This is the topic: " << std::internal << std::setw(49) << option << "|" << std::endl;
+	std::cout << "|Number of letters: " << std::setw(49) << static_cast<int>(_palavra.size()) << "|" << std::endl;
+	std::cout << "|This is how it is: " << std::setw(49) << _word.c_str() << "|" << std::endl;
+	// for (int i = 0; i < static_cast<int>(_palavra.size()); i++)
+	// {
+	// 	if (i + 1 == static_cast<int>(_palavra.size()))
+	// 		std::cout << _word[i];
+	// 	else
+	// 		std::cout << _word[i] << " ";
+	// }
+	std::cout << std::string(70, '*') << std::endl;
+	std::cout << "And you have used these letters: " << std::setw(49);
 	for (int i = 0; i < 26; i++)
 	{
 		if (_letters[i] == 1)
 			std::cout << static_cast<char>(i + 97) << " ";
 	}
-	std::cout << std::endl;
+	std::cout 	<< std::endl;
 	std::cout << "\n";
 	drawing();
 }

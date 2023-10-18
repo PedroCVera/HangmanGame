@@ -187,9 +187,9 @@ united kingdom 0
 united states of america 0
 uruguay 0
 uzbekistan 0
-vanuatu 0
 venezuela 0
 vietnam 0
 yemen 0
 zambia 0
 zimbabwe 0
+vanuatu 10

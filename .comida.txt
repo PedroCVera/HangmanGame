@@ -8,7 +8,6 @@ beets 0
 blueberry 0
 bread 0
 brownie 0
-burger 0
 burrito 0
 butter 0
 cake 0
@@ -38,12 +37,10 @@ grape 0
 grapefruit 0
 guacamole 0
 ham 0
-hamburger 0
 honey 0
 hot dog 0
 ice cream 0
 jelly 0
-kale 0
 kiwi 0
 lasagna 0
 lettuce 0
@@ -80,7 +77,6 @@ ribs 0
 rice 0
 salad 0
 salmon 0
-salsa 0
 sandwich 0
 sausage 0
 spaghetti 0
@@ -88,23 +84,27 @@ spinach 0
 steak 0
 stir-fry 0
 strawberry 0
-sushi 0
-taco 0
 tomato 0
 tuna 0
 turkey 0
-waffle 0
 watermelon 0
 zucchini 0
-bagel 4
+bagel 6
 blackberry 7
+sushi 7
 pasta 8
-apricot 8
 cereal 8
+taco 8
 beef 8
+waffle 8
+burger 8
 broccoli 9
 candy 9
 cabbage 9
 orange 9
-shrimp 10
+shrimp 9
+apricot 9
+kale 9
+salsa 9
 artichoke 10
+hamburger 10
