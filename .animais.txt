@@ -1,0 +1,155 @@
+albatross 0
+alligator 0
+antelope 0
+armadillo 0
+baboon 0
+badger 0
+bear 0
+beagle 0
+beaver 0
+bison 0
+blue whale 0
+boar 0
+boxer dog 0
+buffalo 0
+bull 0
+bullfrog 0
+bumblebee 0
+capybara 0
+cat 0
+cheetah 0
+chihuahua 0
+chameleon 0
+cobra 0
+coati 0
+collie 0
+cow 0
+crocodile 0
+cuttlefish 0
+dachshund 0
+dalmatian 0
+deer 0
+dog 0
+dolphin 0
+donkey 0
+dodo 0
+duck 0
+eagle 0
+echidna 0
+eel 0
+elephant 0
+emu 0
+flamingo 0
+fish 0
+flying fish 0
+flying squirrel 0
+fox 0
+frog 0
+gazelle 0
+gecko 0
+gibbon 0
+gila monster 0
+giraffe 0
+grasshopper 0
+hamster 0
+hare 0
+hedgehog 0
+hen 0
+hermit crab 0
+hippopotamus 0
+horse 0
+horned lizard 0
+hummingbird 0
+hyena 0
+ibex 0
+iguana 0
+jackal 0
+jaguar 0
+jellyfish 0
+kangaroo 0
+king cobra 0
+kingfisher 0
+kiwi bird 0
+koala 0
+lemur 0
+leopard 0
+lion 0
+lizard 0
+lynx 0
+macaw 0
+mammoth 0
+manatee 0
+meerkat 0
+mongoose 0
+mole 0
+monitor lizard 0
+monkey 0
+mouse 0
+mule 0
+newt 0
+ocelot 0
+octopus 0
+okapi 0
+opossum 0
+oyster 0
+panda 0
+pangolin 0
+parrot 0
+peacock 0
+pigeon 0
+polar bear 0
+porcupine 0
+possum 0
+pufferfish 0
+quokka 0
+quokka 0
+rabbit 0
+raccoon 0
+raccoon dog 0
+rat 0
+red panda 0
+reindeer 0
+rhinoceros 0
+rhinoceros beetle 0
+river otter 0
+salamander 0
+scorpion 0
+sea turtle 0
+seahorse 0
+seagull 0
+sea lion 0
+sea otter 0
+seastar 0
+seasnake 0
+sheep 0
+siamese cat 0
+siamese fighting fish 0
+sloth 0
+sloth bear 0
+snail 0
+snake 0
+snow leopard 0
+starfish 0
+sugar glider 0
+swan 0
+tapir 0
+tarantula 0
+tiger 0
+toucan 0
+tree kangaroo 0
+turtle 0
+turtle dove 0
+umbrella bird 0
+vampire bat 0
+vulture 0
+walrus 0
+weasel 0
+whippet 0
+wombat 0
+yak 0
+zebra 0
+zorse 0
+squid 9
+narwhal 9
+chinchilla 10
+chimpanzee 14
