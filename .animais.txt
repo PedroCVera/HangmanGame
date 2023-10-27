@@ -1,6 +1,5 @@
 albatross 0
 alligator 0
-antelope 0
 armadillo 0
 baboon 0
 badger 0
@@ -130,7 +129,6 @@ snail 0
 snake 0
 snow leopard 0
 starfish 0
-sugar glider 0
 swan 0
 tapir 0
 tarantula 0
@@ -141,15 +139,17 @@ turtle 0
 turtle dove 0
 vampire bat 0
 vulture 0
-walrus 0
 weasel 0
-whippet 0
 yak 0
 zebra 0
 zorse 0
+walrus 8
 squid 9
 narwhal 9
 chinchilla 10
+whippet 10
 wombat 11
+antelope 11
+sugar glider 12
 chimpanzee 14
 umbrella bird 14

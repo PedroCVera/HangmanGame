@@ -94,7 +94,6 @@ blackberry 7
 sushi 7
 pasta 8
 cereal 8
-taco 8
 beef 8
 waffle 8
 burger 8
@@ -106,5 +105,6 @@ shrimp 9
 apricot 9
 kale 9
 salsa 9
+taco 9
 artichoke 10
 hamburger 10

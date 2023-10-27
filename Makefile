@@ -19,6 +19,10 @@ $(OBJ_PATH)/%.o:%.cpp
 $(NAME): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@  $^
 
+init:
+	make re
+	./Forca
+
 clean:
 	rm -rf $(OBJ_PATH)
 

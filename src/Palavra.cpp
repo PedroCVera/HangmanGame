@@ -6,7 +6,7 @@
 /*   By: pcoimbra <pcoimbra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 11:56:32 by pcoimbra          #+#    #+#             */
-/*   Updated: 2023/10/18 16:54:41 by pcoimbra         ###   ########.fr       */
+/*   Updated: 2023/10/27 12:48:27 by pcoimbra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -203,7 +203,7 @@ void	Palavra::display()
 {
 	std::string	option = _option.substr(1, _option.find_last_of("."));
 	
-	std::cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" << std::endl;
+	system("clear");
 	std::cout << std::flush;
 	std::cout << std::string(70, '*') << std::endl;
 	std::cout << "|This is the topic: " << std::internal << std::setw(49) << option << "|" << std::endl;
@@ -230,16 +230,16 @@ void	Palavra::display()
 
 void	Palavra::win()
 {
-	std::cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" << std::endl;
+	system("clear");
 	std::cout << "\nG fucking G    " << _palavra << std::endl;
-	std::cout << "\n\n\n\n\n\n" << std::endl;
+	std::cout << "\n\n" << std::endl;
 }
 
 void	Palavra::loose()
 {
-	std::cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" << std::endl;
-	std::cout << "\nL, the word was: " << _palavra << std::endl;
-	std::cout << "\n\n\n\n\n\n" << std::endl;
+	system("clear");
+	std::cout << "L, the word was: " << _palavra << std::endl;
+	std::cout << "\n\n" << std::endl;
 }
 
 int		Palavra::dead()

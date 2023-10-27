@@ -6,7 +6,7 @@
 /*   By: pcoimbra <pcoimbra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 12:26:00 by pcoimbra          #+#    #+#             */
-/*   Updated: 2023/10/18 16:13:48 by pcoimbra         ###   ########.fr       */
+/*   Updated: 2023/10/27 12:49:22 by pcoimbra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	start2(void)
 {
 	int		opt;
 	char	c;
-	
+
 	std::cout << "***********************************" << std::endl;
 	std::cout << "|Choose which pool to choose from |" << std::endl;
 	std::cout << "|Your own word  -       0         |" << std::endl;
@@ -43,7 +43,8 @@ int	main(void)
 	int		opt = 0;
 	int		flag = 0;
 	char	c;
-	
+
+	system("clear");
 	while (opt != 4)
 	{
 		c = 'A';
@@ -65,5 +66,5 @@ int	main(void)
 			Playing.UpdateTries();
 		flag++;
 	}
-	return (1);
+	return (0);
 }
